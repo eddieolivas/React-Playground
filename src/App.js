@@ -26,6 +26,12 @@ function App() {
       amount: 450,
       date: new Date(2021, 5, 12),
     },
+    {
+      id: "e5",
+      title: "Huge Canteen (Metal)",
+      amount: 150,
+      date: new Date(2021, 5, 21),
+    },
   ];
 
   return (
