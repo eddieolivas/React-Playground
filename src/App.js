@@ -1,5 +1,7 @@
 import Expenses from "./components/Expenses/Expenses";
 
+import NewExpense from './components/NewExpense/NewExpense';
+
 const App = () => {
   const expenses = [
     {
@@ -36,8 +38,8 @@ const App = () => {
 
   return (
     <div>
-      <h2>Just getting started!</h2>
-      <p>Words go here.</p>
+      <h1 style={{textAlign: 'center'}}>Expense Tracker</h1>
+      <NewExpense />
       <Expenses expenses={expenses} />
     </div>
   );
